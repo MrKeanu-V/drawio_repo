@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T12:37:45.595Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Sx4WZK8l-VX38MG7F7fp" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-19T12:48:28.832Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="MuLMQ8c_FKbbFhTDq-SK" version="22.1.21" type="github">
   <diagram id="6I0OCvxSQrVGMHxT2VVA" name="Page-1">
     <mxGraphModel dx="1562" dy="861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -31,14 +31,17 @@
         <mxCell id="VlUCXaoxYk9hjqGgWemj-17" value="目标二：裂纹识别过程的连续性分割结果优化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="910" y="285" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VlUCXaoxYk9hjqGgWemj-26" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;模型建立&lt;br&gt;和&lt;br&gt;实验验证&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="724" width="120" height="60" as="geometry" />
+        <mxCell id="VlUCXaoxYk9hjqGgWemj-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VlUCXaoxYk9hjqGgWemj-28" target="VlUCXaoxYk9hjqGgWemj-64">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VlUCXaoxYk9hjqGgWemj-28" value="性能分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="630" width="120" height="30" as="geometry" />
+        <mxCell id="VlUCXaoxYk9hjqGgWemj-28" value="多尺度特征融合策略" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="725" y="665" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VlUCXaoxYk9hjqGgWemj-29" value="实验结果汇总" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="910" y="630" width="120" height="30" as="geometry" />
+        <mxCell id="VlUCXaoxYk9hjqGgWemj-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VlUCXaoxYk9hjqGgWemj-29" target="VlUCXaoxYk9hjqGgWemj-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VlUCXaoxYk9hjqGgWemj-29" value="分割连续性卷积块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="925" y="665" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VlUCXaoxYk9hjqGgWemj-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VlUCXaoxYk9hjqGgWemj-32" target="VlUCXaoxYk9hjqGgWemj-33">
           <mxGeometry relative="1" as="geometry" />
@@ -46,39 +49,28 @@
         <mxCell id="VlUCXaoxYk9hjqGgWemj-32" value="&lt;p class=&quot;MsoNormal&quot;&gt;基于注意力的多尺度特征融合机制研究&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="390" width="150" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="VlUCXaoxYk9hjqGgWemj-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VlUCXaoxYk9hjqGgWemj-33" target="VlUCXaoxYk9hjqGgWemj-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VlUCXaoxYk9hjqGgWemj-33" value="&lt;p class=&quot;MsoNormal&quot;&gt;基于注意力机制和特征融合的裂纹识别方法研究&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="470" width="150" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="VlUCXaoxYk9hjqGgWemj-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VlUCXaoxYk9hjqGgWemj-36" target="VlUCXaoxYk9hjqGgWemj-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="985" y="540" />
+              <mxPoint x="880" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="VlUCXaoxYk9hjqGgWemj-36" value="&lt;p class=&quot;MsoNormal&quot;&gt;基于蛇形卷积层的连续性检测方法研究&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="910" y="430" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="VlUCXaoxYk9hjqGgWemj-42" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="870" y="500" width="20" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="VlUCXaoxYk9hjqGgWemj-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VlUCXaoxYk9hjqGgWemj-33" target="VlUCXaoxYk9hjqGgWemj-42">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="785" y="560" />
-              <mxPoint x="880" y="560" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VlUCXaoxYk9hjqGgWemj-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VlUCXaoxYk9hjqGgWemj-36" target="VlUCXaoxYk9hjqGgWemj-42">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="985" y="560" />
-              <mxPoint x="880" y="560" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="VlUCXaoxYk9hjqGgWemj-45" value="现象一：传统模型在复杂表面进行裂纹检测时存在预测结果稀疏化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="120" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VlUCXaoxYk9hjqGgWemj-46" value="现象二：传统模型在复杂表面进行裂纹检测时存在的预测结果不连续" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="910" y="120" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VlUCXaoxYk9hjqGgWemj-47" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="870" y="584" width="20" height="200" as="geometry" />
         </mxCell>
         <mxCell id="VlUCXaoxYk9hjqGgWemj-52" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="870" y="150" width="20" height="200" as="geometry" />
@@ -94,6 +86,18 @@
         </mxCell>
         <mxCell id="VlUCXaoxYk9hjqGgWemj-62" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.55;dx=42.8;notch=15;rotation=90;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="415" y="508" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VlUCXaoxYk9hjqGgWemj-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VlUCXaoxYk9hjqGgWemj-63" target="VlUCXaoxYk9hjqGgWemj-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VlUCXaoxYk9hjqGgWemj-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VlUCXaoxYk9hjqGgWemj-63" target="VlUCXaoxYk9hjqGgWemj-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VlUCXaoxYk9hjqGgWemj-63" value="模型设计" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="558" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VlUCXaoxYk9hjqGgWemj-64" value="实验验证与性能分析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="735" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
